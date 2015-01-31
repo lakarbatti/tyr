@@ -11,7 +11,7 @@
 #' @examples
 #' random_invertable_matrix(3, "bob")
 
-random_invertable_matrix <- function(n, seed=NA){
+random_invertible_matrix <- function(n, seed=NA){
 	if (!is.na(seed)){
 		if(is.character(seed)){
 			require(digest)
