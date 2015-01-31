@@ -9,7 +9,7 @@
 #' @keywords random invertible matrix
 #' @export
 #' @examples
-#' random_invertable_matrix(3, "bob")
+#' random_invertible_matrix(3, "bob")
 
 random_invertible_matrix <- function(n, seed=NA){
 	if (!is.na(seed)){
